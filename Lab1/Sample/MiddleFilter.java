@@ -34,7 +34,6 @@ public class MiddleFilter extends FilterFramework
 			{
 				databyte = ReadFilterInputPort();
 				bytesread++;
-				System.out.println(databyte)
 				WriteFilterOutputPort(databyte);
 				byteswritten++;
 			}
